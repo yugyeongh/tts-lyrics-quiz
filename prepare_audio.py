@@ -5,7 +5,7 @@ import yt_dlp
 def load_environment_variable():
     load_dotenv()
     URL = os.getenv("YOUTUBE_URL")
-    OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'data')
+    OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'input_mp3')
     OUTPUT_FILENAME = os.getenv('OUTPUT_FILENAME', 'youtube_output.mp3')
 
     return URL, OUTPUT_DIR, OUTPUT_FILENAME
