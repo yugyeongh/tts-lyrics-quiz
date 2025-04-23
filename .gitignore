@@ -3,3 +3,5 @@
 *.json
 /data
 /tts_mp3
+/input_mp3
+/output_*
