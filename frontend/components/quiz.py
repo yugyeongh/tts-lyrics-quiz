@@ -4,7 +4,7 @@ from utils.summary_lyrics import summarize_lyrics_with_eeve
 
 def load_songs():
     try:
-        with open("../data/songs.json", "r", encoding="utf-8") as file:
+        with open("data/songs.json", "r", encoding="utf-8") as file:
             return json.load(file)
     except FileNotFoundError:
         st.error("songs.json 파일을 찾을 수 없습니다.")
