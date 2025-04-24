@@ -11,24 +11,13 @@ if 'is_playing' not in st.session_state:
 if 'question_number' not in st.session_state:
     st.session_state.question_number = 1
 
+
 with st.container():
-    st.markdown("""
-    <div class="main">
-        <h1 class="title">
-            <span>AI</span> <span>가사</span> <span>낭독 퀴즈</span>
-        </h1>
-        <div class="button-container">
-    """, unsafe_allow_html=True)
-
-    col1 = st.columns(1)[0]
+    st.markdown('<h1 class="title"><span>AI</span> <span>가사</span> <span>낭독 퀴즈</span></h1>', unsafe_allow_html=True)
+    st.markdown('<div class="button-container">', unsafe_allow_html=True)
     
-    with col1:
-        if st.button("게임 시작하기", key="start", use_container_width=True):
-            st.session_state.is_loading = True
-            st.switch_page("pages/game.py")
-  
-
-    st.markdown("""
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    if st.button("시작", key="start", use_container_width=True):
+        st.session_state.is_loading = True
+        st.switch_page("pages/game.py")
+    
+    st.markdown('</div>', unsafe_allow_html=True)
