@@ -10,28 +10,28 @@ from streamlit_webrtc import webrtc_streamer, WebRtcMode
 import speech_recognition as sr
 import av
 
-# 스타일 설정
-MAIN_STYLES = """
-<style>
-.question-number {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-.icon-container {
-    text-align: center;
-    margin-top: 20px;
-}
-.loading-icon {
-    font-size: 18px;
-    color: gray;
-}
-.speaker-icon-playing {
-    font-size: 40px;
-    color: green;
-}
-</style>
-"""
+# # 스타일 설정
+# MAIN_STYLES = """
+# <style>
+# .question-number {
+#     font-size: 30px;
+#     font-weight: bold;
+#     text-align: center;
+# }
+# .icon-container {
+#     text-align: center;
+#     margin-top: 20px;
+# }
+# .loading-icon {
+#     font-size: 18px;
+#     color: gray;
+# }
+# .speaker-icon-playing {
+#     font-size: 40px;
+#     color: green;
+# }
+# </style>
+# """
 
 st.set_page_config(
     page_title="AI 가사 낭독 퀴즈 - 게임",
