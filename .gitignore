@@ -5,3 +5,5 @@
 /tts_mp3
 /input_mp3
 /output_*
+
+__pycache__
