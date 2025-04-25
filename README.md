@@ -86,6 +86,7 @@
 <p align="center"> 
     <img src="https://github.com/user-attachments/assets/7a62a05e-ba3e-4e80-84fe-74bb49099572">
 </p>
+
 - game page
 <p align="center"> 
     <img src="https://github.com/user-attachments/assets/c3189ba8-a92e-495c-9b52-c83d7eb81992">
