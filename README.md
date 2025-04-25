@@ -19,7 +19,6 @@
     <img src="https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white" />
     <img src="https://img.shields.io/badge/RunPod-%23000000.svg?style=for-the-badge&logo=runpod&logoColor=white" />
     <img src="https://img.shields.io/badge/HuggingFace-%23FFD21F.svg?style=for-the-badge&logo=huggingface&logoColor=black" />
-    <img src="https://img.shields.io/badge/HuggingFace-%23FF6DCB.svg?style=for-the-badge&logo=EEVE-Korean-10.8B&logoColor=white" />
 </p>
 <br/><br/>
 
