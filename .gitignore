@@ -11,3 +11,6 @@ __pycache__
 
 Modelfile
 models/
+
+*.log
+tts_env/

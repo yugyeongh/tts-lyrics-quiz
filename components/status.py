@@ -9,7 +9,7 @@ def render_tts_status():
             <div class="icon-container">
                 <div class="loading-icon">
                     <div class="loading-spinner"></div>
-                    TTS 변환 중...
+                    노래 불러오는 중...
                 </div>
             </div>
         """, unsafe_allow_html=True)
