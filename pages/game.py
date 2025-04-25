@@ -6,7 +6,8 @@ from components.status import render_tts_status
 from components.quiz import render_quiz
 from utils.tts import generate_tts
 
-st.set_page_config(page_title="AI 가사 낭독 퀴즈", page_icon="🎵", layout="centered")
+st.set_page_config(page_title="AI 가사 낭독 퀴즈", page_icon="🎵", layout="centered", initial_sidebar_state="collapsed")
+
 st.markdown(main_style(), unsafe_allow_html=True)
 
 init_session_state()

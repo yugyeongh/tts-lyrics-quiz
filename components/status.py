@@ -13,10 +13,15 @@ def render_tts_status():
                 </div>
             </div>
         """, unsafe_allow_html=True)
-    elif state == 'playing':
-        icon = "정답" if status == 'correct' else "🔊"
-        st.markdown(f"""
-            <div class="icon-container">
-                <div class="speaker-icon-playing">{icon}</div>
-            </div>
-        """, unsafe_allow_html=True)
+    # elif state == 'playing':
+    #     icon = "정답" if status == 'correct' else "🔊"
+    #     st.markdown(f"""
+    #         <div class="icon-container">
+    #             <div class="speaker-icon-playing">{icon}</div>
+    #         </div>
+    #         <style>
+    #             .speaker-icon-playing {{
+    #                 font-size: 200px; /* 원하는 크기로 조정 */
+    #             }}
+    #         </style>
+    #     """, unsafe_allow_html=True)

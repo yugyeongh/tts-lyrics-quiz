@@ -121,9 +121,9 @@ def main_style():
         border-radius: 15px !important;
         font-size: 50px !important;
         font-family: 'GmarketSans', sans-serif !important;
-        font-weight: 700 !important;
-        background: transparent !important;
-        color: #FFD700 !important;
+        font-weight: 900 !important;
+        background: white;
+        color: black;
         border: 5px solid #FFD700 !important;
         transition: all 0.3s ease !important;
         display: flex !important;
