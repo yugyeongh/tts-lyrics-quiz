@@ -71,7 +71,7 @@
 - 야놀자의 `EEVE-Korean-10.8B` 모델 사용
   - 적용: 사용자에게 노래 가사의 핵심을 요약하여 힌트 제공
 
-<hr/>
+<br/>
 
 ## 🔊 TTS 모델
 - Google의 `gTTS (Google Text-to-Speech)` 사용
