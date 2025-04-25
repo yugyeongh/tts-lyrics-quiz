@@ -16,7 +16,7 @@ def init_session_state():
             st.session_state[key] = value
 
     if 'remaining_songs' not in st.session_state:
-        with open('data/songs.json', 'r', encoding='utf-8') as f:
+        with open('./data/songs.json', 'r', encoding='utf-8') as f:
             songs = json.load(f)
             random.shuffle(songs)
             st.session_state.remaining_songs = songs
